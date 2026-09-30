@@ -1,0 +1,241 @@
+{
+  "startUrl": "https://adigium.github.io/",
+  "runAt": "2026-09-30T05:04:13.346Z",
+  "crawlFailed": false,
+  "crawlComplete": true,
+  "pagesCrawled": 13,
+  "pagesOk": 13,
+  "pagesRedirected": 1,
+  "pagesBroken": 0,
+  "pagesNonIndexable": 2,
+  "healthScore": 92,
+  "issuesBySeverity": {
+    "error": 2,
+    "warning": 6,
+    "notice": 26
+  },
+  "issueCounts": {
+    "hreflangNotReciprocal": 1,
+    "mixedContent": 1,
+    "canonicalMissing": 1,
+    "canonicalOffDomain": 1,
+    "thinContent": 1,
+    "sitemapUrlNoindex": 1,
+    "sitemapUrlCanonicalised": 1,
+    "langMissing": 1,
+    "redirected": 1,
+    "titleTooLong": 1,
+    "h1Multiple": 1,
+    "headingLevelSkipped": 1,
+    "notIndexable": 2,
+    "duplicateMetaDescription": 2,
+    "notInSitemap": 3,
+    "linksToRedirect": 1,
+    "socialTagsMissing": 12,
+    "imageTooLarge": 1,
+    "imagesMissingDimensions": 1
+  },
+  "issuesByCategory": [
+    {
+      "category": "International",
+      "error": 1,
+      "warning": 1,
+      "notice": 0,
+      "urls": 2
+    },
+    {
+      "category": "HTTPS",
+      "error": 1,
+      "warning": 0,
+      "notice": 0,
+      "urls": 1
+    },
+    {
+      "category": "Sitemap",
+      "error": 0,
+      "warning": 2,
+      "notice": 3,
+      "urls": 5
+    },
+    {
+      "category": "Canonicals and indexing",
+      "error": 0,
+      "warning": 2,
+      "notice": 2,
+      "urls": 3
+    },
+    {
+      "category": "Content",
+      "error": 0,
+      "warning": 1,
+      "notice": 0,
+      "urls": 1
+    },
+    {
+      "category": "Social sharing",
+      "error": 0,
+      "warning": 0,
+      "notice": 12,
+      "urls": 12
+    },
+    {
+      "category": "Titles and descriptions",
+      "error": 0,
+      "warning": 0,
+      "notice": 3,
+      "urls": 2
+    },
+    {
+      "category": "Headings",
+      "error": 0,
+      "warning": 0,
+      "notice": 2,
+      "urls": 2
+    },
+    {
+      "category": "Images",
+      "error": 0,
+      "warning": 0,
+      "notice": 2,
+      "urls": 2
+    },
+    {
+      "category": "Redirects",
+      "error": 0,
+      "warning": 0,
+      "notice": 1,
+      "urls": 1
+    },
+    {
+      "category": "Links",
+      "error": 0,
+      "warning": 0,
+      "notice": 1,
+      "urls": 1
+    }
+  ],
+  "pagesToFixFirst": [
+    {
+      "url": "https://adigium.github.io/about/",
+      "error": 2,
+      "warning": 0,
+      "issues": [
+        "hreflangNotReciprocal",
+        "mixedContent"
+      ]
+    },
+    {
+      "url": "https://adigium.github.io/contact/",
+      "error": 0,
+      "warning": 3,
+      "issues": [
+        "canonicalMissing",
+        "thinContent",
+        "langMissing"
+      ]
+    },
+    {
+      "url": "https://adigium.github.io/blog/sourdough-starter/",
+      "error": 0,
+      "warning": 2,
+      "issues": [
+        "canonicalOffDomain",
+        "sitemapUrlCanonicalised"
+      ]
+    },
+    {
+      "url": "https://adigium.github.io/catering/",
+      "error": 0,
+      "warning": 1,
+      "issues": [
+        "sitemapUrlNoindex"
+      ]
+    }
+  ],
+  "statusCounts": {
+    "200": 13
+  },
+  "sitemapUrlCount": 10,
+  "notInSitemap": 3,
+  "orphanPages": 0,
+  "sitemapUrlsBlocked": 0,
+  "changes": {
+    "firstRun": false,
+    "historyUnavailable": false,
+    "previousCrawledAt": "2026-09-30T05:02:44.144Z",
+    "daysSincePreviousCrawl": 0,
+    "changeCounts": {
+      "url-removed": 1,
+      "title-changed": 1,
+      "h1-count-changed": 1,
+      "redirect-chain-grew": 1,
+      "url-added": 1,
+      "status-changed": 1,
+      "canonical-changed": 2,
+      "canonical-off-domain": 1,
+      "became-noindex": 2,
+      "meta-description-changed": 1,
+      "redirect-chain-removed": 1,
+      "images-missing-alt-changed": 1,
+      "became-indexable": 1
+    },
+    "changesTotal": 15,
+    "crawlComplete": true,
+    "pagesNotReached": 0,
+    "scopeChanged": false,
+    "newPagesNotReported": 0,
+    "headline": "2 pages no longer indexable, 2 canonicals changed, 1 page indexable again, and 10 other kinds of change (15 in total)"
+  },
+  "billingBand": "audit-mini",
+  "maxCostCap": null,
+  "datasets": {
+    "pages": "dqquVstsXJh5hFK9F",
+    "issues": "aUQlQdr8hfSTSeUFU",
+    "changes": "sL0RPcVGcvlaYG8vV"
+  },
+  "counters": {
+    "certificate.hosts_read": 1,
+    "change.consequential_rows_suppressed": 1,
+    "change.rows_emitted": 15,
+    "charge.platform_accepted.audit-mini": 1,
+    "charge.sent.audit-mini": 1,
+    "dataset.changes.records_pushed": 15,
+    "dataset.issues.records_pushed": 34,
+    "dataset.pages.records_pushed": 13,
+    "enqueue.added": 3,
+    "enqueue.skipped_seen": 69,
+    "externalLink.ok": 1,
+    "history.written": 1,
+    "image.ok": 2,
+    "issues.rows_emitted": 34,
+    "page.audited": 13,
+    "page.redirected": 1,
+    "page.with_issues": 12,
+    "review.asked": 1,
+    "sitemap.from_robots": 1,
+    "sitemap.loaded": 1,
+    "sitemap.seed.skipped_seen": 1,
+    "sitemap.urls_found": 10,
+    "speed.no_key": 1
+  },
+  "certificates": [
+    {
+      "host": "adigium.github.io",
+      "validTo": "2026-10-31T23:38:01.000Z",
+      "daysLeft": 31,
+      "namesHost": true,
+      "error": null
+    }
+  ],
+  "newChecks": [],
+  "healthScoreWithoutNewChecks": null,
+  "followLinks": true,
+  "urlsListed": null,
+  "speed": {
+    "pagesRequested": 5,
+    "pagesTested": 0,
+    "keySource": "none",
+    "notTestedReason": "no-key",
+    "origin": null
+  }
+}

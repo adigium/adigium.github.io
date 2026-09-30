@@ -67,3 +67,19 @@ GitHub Pages publishes `docs/` from the `main` branch.
 - `tools/capture.mjs` makes a PNG of one part of a report, with the Chrome installed on the
   machine: the top, one section (`--part Changes`) or one issue opened (`--issue "Broken link"`).
 - `src/lib/expected.mjs` lists what each audit must find, written before the first run.
+
+## The runs behind the README images
+
+Two platform runs on 30 Sep 2026, build 0.2.35, history name `demo-readme-v1`: state a, then
+state b. Each matched `src/lib/expected.mjs` exactly: every issue on the expected paths and
+nothing more, and the 15 expected changes.
+
+| Folder | Run | State | Health score |
+|---|---|---|---|
+| `samples/run-1/` | `yV9GgcJoco8ECHsR5` | a | 69 |
+| `samples/run-2/` | `0VWU1Iw4YgWV2jR1L` | b | 92 |
+
+Each folder holds the run's own `report.html` and `summary.json`, unchanged. The images in
+`readme/` come from those reports with `tools/capture.mjs`, and the tag `readme-v1` pins them.
+Never replace an image under a tag: the Apify Store caches README images for 7 days. When the
+report's look changes, capture again and tag `readme-v2`.

@@ -1,0 +1,11 @@
+# A demo site for an SEO audit tool. Search engines are kept out.
+User-agent: Googlebot
+Disallow: /
+
+User-agent: Bingbot
+Disallow: /
+
+User-agent: *
+Allow: /
+
+Sitemap: https://adigium.github.io/sitemap.xml

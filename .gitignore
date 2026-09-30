@@ -1,0 +1,12 @@
+# Output of tools/local-run.mjs: localhost URLs, a throwaway certificate authority and its key.
+local-run/
+# Test captures. README images go in readme/, from the platform runs.
+captures/
+# The assets lane's first draft, kept beside the project for reference only.
+draft/
+# The build notes for the owner: machine paths and open decisions, not for the public repo.
+REPORT.md
+node_modules/
+# Scripts that run the tool's own private code; kept out of the public repo.
+tools/local-run.mjs
+tools/actor-pipeline.mjs

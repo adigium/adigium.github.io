@@ -1,0 +1,4 @@
+body{font:17px/1.6 Georgia,serif;max-width:44rem;margin:0 auto;padding:1rem;color:#222;background:#fdfaf5}
+.demo-note{margin:0 0 1rem;padding:.6rem .8rem;border:2px solid #b45309;border-radius:6px;background:#fff7ed;font:15px/1.5 system-ui,sans-serif}
+header{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;border-bottom:1px solid #ddd}
+nav a{margin-left:1rem}img{max-width:100%;height:auto}

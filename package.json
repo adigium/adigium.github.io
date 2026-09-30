@@ -1,0 +1,18 @@
+{
+  "name": "adigium-demo-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A made-up bakery with deliberate SEO problems, kept as a demo for the SEO Audit & Change Monitor Actor.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "packageManager": "npm@11.17.0",
+  "scripts": {
+    "build:a": "node build.mjs a",
+    "build:b": "node build.mjs b",
+    "serve": "node tools/serve.mjs",
+    "test": "node --test test/*.test.mjs",
+    "verify": "node --test test/*.test.mjs"
+  }
+}
